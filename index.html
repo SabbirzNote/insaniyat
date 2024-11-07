@@ -1,1 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Charity Organization</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
 
+    body {
+      font-family: Arial, sans-serif;
+      line-height: 1.6;
+    }
+
+    /* Hero Section */
+    .hero {
+      background-image: url('https://cdn.pixabay.com/photo/2016/10/05/17/26/indian-1717192_960_720.jpg');
+      background-size: cover;
+      background-position: center;
+      color: #fff;
+      text-align: center;
+      padding: 50px 20px;
+    }
+
+    .hero h1 {
+      font-size: 2.5rem;
+      margin-bottom: 20px;
+    }
+
+    .hero p {
+      font-size: 1.2rem;
+      max-width: 600px;
+      margin: 0 auto;
+    }
+
+    /* Section Styling */
+    .section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    .section h2 {
+      margin-bottom: 20px;
+    }
+
+    .section p {
+      max-width: 700px;
+      margin: 0 auto 20px;
+    }
+
+    /* Images Row */
+    .images-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 20px;
+      justify-content: center;
+      padding: 20px;
+    }
+
+    .images-row img {
+      width: 200px;
+      height: auto;
+      border-radius: 10px;
+    }
+
+    /* CTA Buttons */
+    .cta-buttons {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      margin-top: 20px;
+    }
+
+    .cta-buttons a {
+      padding: 10px 20px;
+      background: #ff6347;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 5px;
+      transition: background 0.3s;
+    }
+
+    .cta-buttons a:hover {
+      background: #e5533c;
+    }
+
+    /* Responsive */
+    @media (max-width: 600px) {
+      .hero h1 {
+        font-size: 1.8rem;
+      }
+
+      .images-row img {
+        width: 150px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <!-- Hero Section -->
+  <section class="hero">
+    <h1>Making a Difference</h1>
+    <p>Our mission is to uplift communities and bring hope to those in need. Join us in making a meaningful impact.</p>
+  </section>
+
+  <!-- About Section -->
+  <section class="section">
+    <h2>About Us</h2>
+    <p>We are dedicated to helping those in need by providing essential resources and support. Our goal is to build a better future, one step at a time.</p>
+  </section>
+
+  <!-- Our Impact Section with Images -->
+  <section class="section">
+    <h2>Our Impact</h2>
+    <div class="images-row">
+      <img src="https://cdn.pixabay.com/photo/2016/01/03/10/11/boy-1119255_960_720.jpg" alt="Child support">
+      <img src="https://cdn.pixabay.com/photo/2019/08/09/20/56/young-girl-4395876_960_720.jpg" alt="Young girl">
+      <img src="https://cdn.pixabay.com/photo/2016/07/29/06/08/man-1550501_960_720.jpg" alt="Man support">
+    </div>
+    <p>We have positively impacted thousands of lives by providing access to education, healthcare, and a sustainable livelihood.</p>
+  </section>
+
+  <!-- Call to Action -->
+  <section class="section">
+    <h2>Get Involved</h2>
+    <p>Your support can make a world of difference. Join us today to create a brighter future for all.</p>
+    <div class="cta-buttons">
+      <a href="#">Donate</a>
+      <a href="#">Volunteer</a>
+    </div>
+  </section>
+
+</body>
+</html>
